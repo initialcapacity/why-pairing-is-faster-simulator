@@ -15,6 +15,7 @@ go run cmd/simulator/simulator.go
 
 ## Pairing run
 
+```
 Starting work
 Pair 'B' starting story 'Create person'
 Pair 'A' starting story 'Create person'
@@ -57,9 +58,11 @@ Pair 'B' starting story 'Accept timesheet'
 Pair 'B' finished story 'Accept timesheet'
 Pair 'A' finished story 'Reject timeheet'
 Backlog complete in 34 hours
+```
 
 ## Solo run
 
+```
 Starting work
 Solo 'D' starting story 'Create person'
 Solo 'D' finished story 'Create person'
@@ -176,4 +179,4 @@ Solo 'B' resolving story 'Reject timeheet'
 Solo 'B' resolved story 'Reject timeheet'
 Solo 'C' resolved story 'Accept timesheet'
 Backlog complete in 42 hours
-
+```
