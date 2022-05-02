@@ -23,7 +23,7 @@ func main() {
 	story103 := story.New("Show timesheet", 2, []*story.Story{&story102})
 	story104 := story.New("Delete timesheet", 2, []*story.Story{&story102})
 	story105 := story.New("Edit timesheet", 4, []*story.Story{&story102})
-	story106 := story.New("Assign project to timesheet", 4, []*story.Story{&story42, &story102})
+	story106 := story.New("Assign person to timesheet", 4, []*story.Story{&story42, &story102})
 	story107 := story.New("Assign project to timesheet", 4, []*story.Story{&story52, &story102})
 
 	story201 := story.New("Submit timesheet", 4, []*story.Story{&story106})
