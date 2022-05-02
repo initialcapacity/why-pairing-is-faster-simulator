@@ -24,6 +24,7 @@ func (b *Backlog) StartWork() {
 	fmt.Println("Starting work")
 	for {
 		for _, s := range b.Stories {
+			time.Sleep(time.Duration(1) * time.Microsecond)
 			if s.IsReadyForAction() && !s.IsBlocked() {
 				b.Firehose <- s
 			}

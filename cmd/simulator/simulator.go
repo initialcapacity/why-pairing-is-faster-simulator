@@ -53,19 +53,19 @@ func main() {
 		&story204,
 	})
 
-	pairA := developers.NewPair("A")
-	pairB := developers.NewPair("B")
-	pairA.WorkFrom(&b)
-	pairB.WorkFrom(&b)
+	//pairA := developers.NewPair("A")
+	//pairB := developers.NewPair("B")
+	//pairA.WorkFrom(&b)
+	//pairB.WorkFrom(&b)
 
-	//soloA := developers.NewSolo("A")
-	//soloB := developers.NewSolo("B")
-	//soloC := developers.NewSolo("C")
-	//soloD := developers.NewSolo("D")
-	//soloA.WorkFrom(&b)
-	//soloB.WorkFrom(&b)
-	//soloC.WorkFrom(&b)
-	//soloD.WorkFrom(&b)
+	soloA := developers.NewSolo("A")
+	soloB := developers.NewSolo("B")
+	soloC := developers.NewSolo("C")
+	soloD := developers.NewSolo("D")
+	soloA.WorkFrom(&b)
+	soloB.WorkFrom(&b)
+	soloC.WorkFrom(&b)
+	soloD.WorkFrom(&b)
 
 	b.StartWork()
 }
